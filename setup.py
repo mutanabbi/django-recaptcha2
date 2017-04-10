@@ -8,7 +8,7 @@ setup(
     include_package_data=True,
     version='1.0.0',
     install_requires=[
-        'Django>=1.7',
+        'Django>=1.6',
         'requests'
     ],
     tests_require=(
@@ -33,6 +33,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Framework :: Django',
+        'Framework :: Django :: 1.6',
         'Framework :: Django :: 1.7',
         'Framework :: Django :: 1.8',
         'Framework :: Django :: 1.9',
